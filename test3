@@ -1,0 +1,12 @@
+function netSalary(grossSalary) {
+    const netSalary = 50,000;
+
+    const nhif = 1200;
+    const nssf = 3000;
+    const tax = 15000;
+    
+
+}
+
+
+

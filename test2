@@ -6,7 +6,7 @@ if (speed <= speedLimit)  {
     console.log("ok");
 } else {
     const demeritPoints = math.floor((speed - speedLimit) / kmPerDemirtPoint);
-    if (demeritPoints >= 12){
+    if (demeritPoints > 12){
         console.log("license suspended");
 } else {
 console.log("points:" + demeritPoints);
